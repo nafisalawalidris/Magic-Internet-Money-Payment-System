@@ -9,7 +9,7 @@
     </header>
     <section id="about">
         <h2>About the Project</h2>
-        <p>The Magic Internet Money Payment System is a visionary initiative by Qala Africa to promote financial inclusion and innovation across Africa. This repository showcases the development of a project aimed at integrating Bitcoin and the Lightning Network to empower individuals with seamless, secure, and convenient payment solutions. This project demonstrates a basic working knowledge of Bitcoin and the Lightning Network by building a simple application for accepting payments and providing confirmation to the user. It's meant to serve as a learning exercise and starting point for understanding cryptocurrency payment workflows.</p>
+        <p>The Magic Internet Money Payment System is a visionary initiative by Qala Africa to promote financial inclusion and innovation across Africa. This repository showcases the development of a project aimed at integrating Bitcoin and the Lightning Network to empower individuals with seamless, secure and convenient payment solutions. This project demonstrates a basic working knowledge of Bitcoin and the Lightning Network by building a simple application for accepting payments and providing confirmation to the user. It's meant to serve as a learning exercise and starting point for understanding cryptocurrency payment workflows.</p>
     </section>
     <section id="getting-started">
         <h2>Getting Started</h2>
