@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Magic Internet Money Payment System</title>
+</head>
+<body>
+    <header>
+        <h1>Magic Internet Money Payment System</h1>
+        <p>Welcome to the Magic Internet Money Payment System!</p>
+    </header>
+    <section id="payment-form">
+        <h2>Payment Type</h2>
+        <form method="POST" action="/payment">
+            <label for="payment_type">Select Payment Type:</label>
+            <select id="payment_type" name="payment_type" required>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="lightning">Lightning</option>
+            </select>
+            <button type="submit">Proceed</button>
+        </form>
+    </section>
+    <section id="confirmation">
+        <h2>Payment Confirmation</h2>
+        {% if payment_type and address_or_invoice %}
+            <p>You have successfully made a {{ payment_type }} payment.</p>
+            <p>{{ payment_type }} Address/Invoice: {{ address_or_invoice }}</p>
+        {% endif %}
+    </section>
+</body>
+</html>
